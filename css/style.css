@@ -163,7 +163,8 @@ h2 {
 }
 
 .vn-green a {
-  background-color: #27ae60;
+  /* #27ae60 */
+  background-color: #0ba9f3;
   display: inline-block;
   position: relative;
   margin: 30px 5px;
