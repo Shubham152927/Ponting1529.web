@@ -41,7 +41,7 @@ $(document).ready(function () {
     onComplete: function () {
       console.log("finished babt");
       new Typed(".alternate-job", {
-        strings: ["Fresher"],
+        strings: [""],
         typeSpeed: 60,
         loop: false,
         startDelay: 0,
