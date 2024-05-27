@@ -176,6 +176,20 @@ h2 {
 //   color: #6addfe;
 //   height: 43px;
 // }
+.cv-text {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff; /* Blue color, you can change it */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cv-text:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
 
 .titleMessage .heading .sub {
   color: #6addfe;

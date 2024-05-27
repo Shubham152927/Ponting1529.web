@@ -38,19 +38,29 @@ $(document).ready(function () {
     loop: false,
     startDelay: 800,
     showCursor: false,
-    // Assuming this is part of some initialization function or an event callback
     onComplete: function () {
       console.log("finished babt");
       new Typed(".location-text", {
         strings: ["Noida, India"],
         typeSpeed: 60,
         loop: false,
-        startDelay: 0,
+        startDelay: 100, // Smaller delay for quicker transition
         showCursor: false,
+        onComplete: function () {
+          console.log("location typed");
+          new Typed(".cv-text", {
+            strings: ["Download CV"],
+            typeSpeed: 60,
+            loop: false,
+            startDelay: 100, // Smaller delay for quicker transition
+            showCursor: false,
+          });
+        }
       });
       $(".location-box > i").addClass("show");
     }
-  });
+  });  
+
 
   $(".owl-carousel").owlCarousel({
     loop: true,
