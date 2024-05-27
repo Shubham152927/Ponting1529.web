@@ -38,26 +38,18 @@ $(document).ready(function () {
     loop: false,
     startDelay: 800,
     showCursor: false,
+    // Assuming this is part of some initialization function or an event callback
     onComplete: function () {
       console.log("finished babt");
-      new Typed(".alternate-job", {
-        strings: [""],
+      new Typed(".location-text", {
+        strings: ["Noida, India"],
         typeSpeed: 60,
         loop: false,
         startDelay: 0,
         showCursor: false,
-        onComplete: function () {
-          new Typed(".location-text", {
-            strings: ["Noida, India"],
-            typeSpeed: 60,
-            loop: false,
-            startDelay: 0,
-            showCursor: false,
-          });
-          $(".location-box > i").addClass("show");
-        },
       });
-    },
+      $(".location-box > i").addClass("show");
+    }
   });
 
   $(".owl-carousel").owlCarousel({
