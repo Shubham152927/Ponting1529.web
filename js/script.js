@@ -257,7 +257,7 @@ function showAboutIntroductionTexts() {
   if (!aboutSectionEntered) {
     new Typed("#work", {
       strings: [
-        "Currently working @ <span class = 'color-primary'>Dailyrounds/Marrow, ex-Spacebasic Inc., ex-Infosys</span>",
+        "Currently working <span class = 'color-primary'>in excel, spreadsheet, Billing etc.</span>",
       ],
       typeSpeed: 20,
       loop: false,
@@ -266,7 +266,7 @@ function showAboutIntroductionTexts() {
       onComplete: function () {
         new Typed(".office-text", {
           strings: [
-            "Devoting office hours into developing the Marrow app.",
+            "In my spare time, I develop Android apps and explore tech.",
           ],
           typeSpeed: 50,
           loop: false,
@@ -275,7 +275,7 @@ function showAboutIntroductionTexts() {
           onComplete: function () {
             new Typed(".spare-text", {
               strings: [
-                "In my spare time, I <span class = 'color-primary'>develop</span> iOS apps and <span class = 'color-primary'>explore</span> tech.",
+                "I code in <span class = 'color-primary'>Java,</span> and <span class = 'color-primary'>xml</span>.",
               ],
               typeSpeed: 50,
               loop: false,
@@ -284,7 +284,7 @@ function showAboutIntroductionTexts() {
               onComplete: function () {
                 new Typed(".language-text", {
                   strings: [
-                    "I code in Swift, and Python",
+                    "I love to talk about Android, technology and life.",
                   ],
                   typeSpeed: 50,
                   loop: false,
@@ -293,7 +293,7 @@ function showAboutIntroductionTexts() {
                   onComplete: function () {
                     new Typed(".hobby-text", {
                       strings: [
-                        "I <span class = 'color-primary'>love</span> to talk about <span class = 'color-primary'>iOS</span>, <span class = 'color-primary'>technology</span> and <span class = 'color-primary'>life</span>.",
+                        "I <span class = 'color-primary'>love</span> to talk about <span class = 'color-primary'>Android</span>, <span class = 'color-primary'>technology</span> and <span class = 'color-primary'>life</span>.",
                       ],
                       typeSpeed: 50,
                       loop: false,
@@ -311,7 +311,7 @@ function showAboutIntroductionTexts() {
                           onComplete: function () {
                             new Typed(".contribution-text", {
                               strings: [
-                                "I've recently created an <a href='https://www.instagram.com/shubham_iosdev/' target='_blank'><span class = 'color-palatte-4'> Instagram</span></a> handle to share my knowledge, connect with awesome people, and help other developers with iOS dev.",
+                                "I've recently created an <a href='https://www.instagram.com/shubham_iosdev/' target='_blank'><span class = 'color-palatte-4'> Instagram</span></a> handle to share my knowledge, connect with awesome people, and help other developers with Android dev.",
                               ],
                               typeSpeed: 30,
                               loop: false,
@@ -320,7 +320,7 @@ function showAboutIntroductionTexts() {
                               onComplete: function () {
                                 new Typed(".motto", {
                                   strings: [
-                                    "My long term goal is to develop something that makes a difference in people's life.",
+                                    "My long term goal is to develop something that makes a difference in people's life",
                                   ],
                                   typeSpeed: 50,
                                   loop: false,
