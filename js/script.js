@@ -41,7 +41,7 @@ $(document).ready(function () {
     onComplete: function () {
       console.log("finished babt");
       new Typed(".location-text", {
-        strings: ["Noida, India"],
+        strings: ["Greater Noida, India"],
         typeSpeed: 60,
         loop: false,
         startDelay: 100, // Smaller delay for quicker transition
