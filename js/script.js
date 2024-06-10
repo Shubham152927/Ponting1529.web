@@ -311,7 +311,7 @@ function showAboutIntroductionTexts() {
                           onComplete: function () {
                             new Typed(".contribution-text", {
                               strings: [
-                                "I've recently created an <a href='https://www.instagram.com/shubham_iosdev/' target='_blank'><span class = 'color-palatte-4'> Instagram</span></a> handle to share my knowledge, connect with awesome people, and help other developers with Android dev.",
+                                "I've recently created an <a href='https://www.instagram.com/__shubham_.official?igsh=MWFscmF6ZjZhcW1xeA%3D%3D&utm_source=qr' target='_blank'><span class = 'color-palatte-4'> Instagram</span></a> handle to share my knowledge, connect with awesome people, and help other developers with Android dev.",
                               ],
                               typeSpeed: 30,
                               loop: false,
