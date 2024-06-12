@@ -284,7 +284,7 @@ function showAboutIntroductionTexts() {
               onComplete: function () {
                 new Typed(".language-text", {
                   strings: [
-                    "I love to talk about Android, technology and life.",
+                    "I <span class = 'color-primary'>love</span> to talk about <span class = 'color-primary'>Android</span>, <span class = 'color-primary'>technology</span> and <span class = 'color-primary'>life</span>.",
                   ],
                   typeSpeed: 50,
                   loop: false,
@@ -302,7 +302,7 @@ function showAboutIntroductionTexts() {
                       onComplete: function () {
                         new Typed(".game-text", {
                           strings: [
-                            "",
+                            "<span class = 'color-primary'>Building</span> and <span class = 'color-primary'>Designing</span> advanced <span class = 'color-primary'>Android</span> application for <span class = 'color-primary'>Android</span> platform.",
                           ],
                           typeSpeed: 50,
                           loop: false,
@@ -311,7 +311,7 @@ function showAboutIntroductionTexts() {
                           onComplete: function () {
                             new Typed(".contribution-text", {
                               strings: [
-                                "I've recently created an <a href='https://www.instagram.com/__shubham_.official?igsh=MWFscmF6ZjZhcW1xeA%3D%3D&utm_source=qr' target='_blank'><span class = 'color-palatte-4'> Instagram</span></a> handle to share my knowledge, connect with awesome people, and help other developers with Android dev.",
+                                "<span class = 'color-primary'>Working</span> in coordination with the <span class = 'color-primary'>design</span> and the testing team to develop <span class = 'color-primary'>Better products</span> with <span class = 'color-primary'>fewer bugs</span>.",
                               ],
                               typeSpeed: 30,
                               loop: false,
