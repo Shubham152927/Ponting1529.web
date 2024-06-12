@@ -284,7 +284,7 @@ function showAboutIntroductionTexts() {
               onComplete: function () {
                 new Typed(".language-text", {
                   strings: [
-                    "",
+                    "I love discussing innovative <span class = 'color-primary'>ideas</span> and <span class = 'color-primary'>solutions</span>.",
                   ],
                   typeSpeed: 50,
                   loop: false,
